@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+footer{
+
+    background-color: $colour2;
+    position: fixed;
+    bottom: 0;//alttan sıfır verdik
+    left: 0;//soldan sıfır verdik
+    width: 100%;
+    
+
+    .title{
+        text-align: center;
+        color: white;
+        padding: 0.5rem;
+        font-weight: bolder;
+    }
+}
