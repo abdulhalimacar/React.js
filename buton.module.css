@@ -1,0 +1,15 @@
+
+.btnBlue{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: violet;
+    width: 5rem;
+    border: none;
+    margin: 5px;
+}
+
+.title{
+    text-align: center;
+}
