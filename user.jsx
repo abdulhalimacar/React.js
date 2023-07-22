@@ -22,7 +22,7 @@ const User = ()=>{
   const { name, dob, email, picture } = user;
   return (
     <div>
-      <h1>{name && name.first}</h1>
+      <h1>{name && name.first}</h1> 
       <img className="rounded-circle" src={picture?.large} alt="" />
       <p>{email}</p>
       {/* <h5>{dob?.date} {dob?.age}</h5> */}
