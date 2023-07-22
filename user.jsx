@@ -24,7 +24,7 @@ const User = ()=>{
     <div>
       <h1>{name && name.first}</h1> 
       <img className="rounded-circle" src={picture?.large} alt="" />
-      <p>{email}</p>
+      <p>{email}</p> 
       {/* <h5>{dob?.date} {dob?.age}</h5> */}
       <h5>
         {new Date(dob?.date).toLocaleDateString("ar-SA")}
